@@ -1,0 +1,274 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body {
+  color: #424242;
+  background-color: #fffefe;
+  font-size: 16px;
+
+}
+
+/* Navbar container */
+.navbar {
+
+  height: 80px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.navelements {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #D7D8DB;
+  font-family: Montserrat;
+  z-index: 100;
+}
+
+.logoHebe{
+  height: 30px;
+}
+
+.llamada{
+  height: 27px;
+}
+
+.nav-menu {
+  display: flex;
+  margin-right: 40px;
+  z-index: 100;
+}
+
+/* Links inside the navbar */
+.nav-menu-item {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  color: #424242;
+  width: auto;
+  height: 60px;
+}
+
+.nav-menu-item.ho:hover{
+  background-color: #C2C2C2;
+}
+
+
+
+.logoHebe.login:hover{
+  font-weight: 800;
+}
+/* Dropdown button */
+.dropdown {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: #424242;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropbtn {
+  display: flex;
+  align-items: center;
+  color: #424242;
+}
+
+/* Add a red background color to navbar links on hover */
+.nav-menu-link {
+  border-radius: 5px;
+  color: #424242;
+  font-size: 19px;
+  padding: 10px 14px;
+  border-radius: 5px;
+}
+
+.nav-menu-link:hover {
+
+  text-decoration-style: double;
+  transition: 0.3s;
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #4d4d4d;
+  margin-top: 290px;
+  min-width: 160px;
+  box-shadow: 0px 9px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Links inside the dropdown */
+.downBlocks {
+  float: none;
+  color: #212529;
+  background-color: #C2C2C2;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.downBlocks:hover {
+  color: #212529;
+  background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-menu-item .carro {
+  color: #ffffff;
+}
+
+.carro:hover {
+  background: none;
+}
+
+/*Login*/
+
+.login{
+  height: 30px;  
+}
+
+.logino{
+  display: none;
+}
+
+.grupo1{
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.grupo2{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.grupo3{
+  display: none;
+}
+
+
+
+.toggle {
+  display:none;
+}
+
+.fa-solid {
+  color: #424242;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+
+.boton {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navHebe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+
+/* @media (max-width: 768px) { */
+@media (max-width: 1200px) {
+  body {
+    padding-top: 70px;
+  }
+
+  .navbar{
+    position:fixed;
+  }
+
+  .nav {
+    height: 70px;
+  }
+
+  .navelements{
+    justify-content: space-between;
+    height: 80px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    margin-top: 80px;
+    background-color: #C2C2C2;
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    align-items: start;
+    padding: 20px 30px;
+    transition: right 0.5s;
+    left: 100%;
+  }
+
+  .toggle {
+    display: block;
+    margin-right: 0px; 
+    padding: 0 10px;
+    height: 35px;
+  }
+
+  .nav-menu_visible {
+    left: 0%;
+  }
+
+  .grupo2{
+    display: block;
+  }
+
+  .grupo3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 10px;
+  }
+
+  .login{
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .nav-menu {
+    width: 50%;
+    padding: 20px 10px;
+ 
+  }
+
+  .nav-menu-link{
+    font-size:16px;
+  }
+
+  .logoHebe{
+    height: 25px;
+  }
+
+  .toggle.logoHebe{
+    height: 30px;
+  }
+
+  .nav-menu-item {
+    height: 40px;
+  } 
+
+
+}

@@ -1,0 +1,7 @@
+export * from './ActInicio'
+export * from './Cartel'
+export * from './Nav'
+export * from './QuienSomos'
+export * from './Slide'
+export * from './Horarios'
+export * from './Footer'

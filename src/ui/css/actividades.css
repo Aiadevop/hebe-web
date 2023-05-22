@@ -1,0 +1,144 @@
+.taekwondoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top:2%
+}
+
+.taeh1 {
+    padding: 0%;
+}
+
+
+.taekwondoContainerMovil{
+    display: none;
+}
+.taekwondoImg {
+    width: 40%;
+    margin-right: 80px;
+    margin-left: 50px;
+}
+.funcore {
+    padding-top: 4%;
+}
+.movil {
+    padding-left: 4%;
+}
+
+.pilates , .tricking {
+    width: 48%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.taekwondoImgx{
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.taekwondo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+.taekwondo p{
+    font-size: x-large;
+}
+
+.horariocontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;  
+    margin-bottom: 30px;
+    
+}
+
+.horariocontainer div img{
+    width: 100%;
+    padding-left: 6%;
+    padding-right: 6%;
+
+}
+.horariocontainer div h2,h3{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.horarioH2{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.horarioH5{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: small;
+    text-decoration: underline;
+
+}
+
+.quintela{
+    margin-top: 6%;
+}
+
+
+
+.divHorario {
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.divHorarioh3 {
+    font-weight: 400;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+ .h2icon{
+    font-size: small;
+}
+}
+
+@media (max-width: 800px) {
+    .taekwondo p{
+        font-size: small;
+    }
+
+    .taekwondoContainerMovil{
+        display: block;
+    }
+
+    .taekwondoContainer{
+        display: none;
+    }
+
+    .horariocontainer{
+        display: block;
+    }
+
+    .horariocontainer div h2,h3{
+        font-size: large;
+    }
+
+    .divHorario {
+        font-weight: 600;
+        font-size: large;
+    }
+    
+    .divHorarioh3 {
+        font-weight: 400;
+        font-size: small;
+        margin-bottom: 30px;
+    }
+}
