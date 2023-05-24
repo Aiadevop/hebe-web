@@ -3,8 +3,7 @@ import { useState } from 'react';
 export const DeleteActivity = () => {
   const [actividadInput, setActividadInput] = useState('');
   const [idInput, setIdInput] = useState('');
-  const url = 'http://localhost:8080/'
-
+  const url =  'http://localhost:8080/'
   //Función borrar usuario
   async function onSubmitDeleteActivity(event) {
 

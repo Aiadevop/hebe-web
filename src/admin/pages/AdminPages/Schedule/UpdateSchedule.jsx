@@ -7,7 +7,7 @@ export const UpdateSchedule = () => {
   const [hastaInput, setHastaInput] = useState();
   const [salaInput, setSalaInput] = useState('');
   const [actividadInput, setActividadInput] = useState('');
-  const url = 'http://localhost:8080/'
+  const url =  'http://localhost:8080/'
 
   //Función actualizar usuario
   async function onSubmitUpdateSchedule(event) {

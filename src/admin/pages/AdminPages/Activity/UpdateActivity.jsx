@@ -6,7 +6,7 @@ export const UpdateActivity = () => {
   const [actividadPutInput, setActividadPutInput] = useState('');
   const [precioPutInput, setPrecioPutInput] = useState('');
 
-  const url = 'http://localhost:8080/'
+  const url =  'http://localhost:8080/'
 
   //Función actualizar usuario
   async function onSubmitUpdateActivity(event) {

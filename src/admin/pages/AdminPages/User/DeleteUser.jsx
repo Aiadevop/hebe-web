@@ -4,7 +4,7 @@ export const DeleteUser = () => {
 
   const [nameInput, setNameInput] = useState('');
   const [idInput, setIdInput] = useState('');
-  const url = 'http://localhost:8080/'
+  const url =  'http://localhost:8080/'
 
   //Función borrar usuario
   async function onSubmitDeleteUser(event) {

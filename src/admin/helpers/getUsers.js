@@ -1,9 +1,10 @@
 export async function onSubmitGetUsers(event) {
-
+  
+    const url =  'http://localhost:8080/'
     event.preventDefault();
     try {
 
-      const response = await fetch(`http://localhost:8080/api/usuarios?limite=100`, {
+      const response = await fetch(`${url}api/usuarios?limite=100`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

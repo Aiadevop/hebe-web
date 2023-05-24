@@ -5,8 +5,7 @@ export const DeleteUsertoSchedule = () => {
   const [usuarioInput, setUsuarioInput] = useState('');
 
 
-  const url = 'http://localhost:8080/'
-
+  const url =  'http://localhost:8080/'
   //Función actualizar usuario
   async function onSubmitDeleteUseronSchedule(event) {
 

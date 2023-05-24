@@ -5,12 +5,12 @@ import '../../ui/css/admin.css'
 export const AdminPanel = () => {
   let token = sessionStorage.getItem('token')
   let rol = sessionStorage.getItem('rol')
-  const urlFront = 'http://localhost:5173'
+
 
   if (token && rol) {
 
     if (!rol.includes("ADMIN_ROLE")) {
-      window.location.href = `${urlFront}/login`
+      window.location.href = `/login`
     } else {
       return (
         <>

@@ -5,7 +5,7 @@ export const GetActivity = () => {
 
   //Mostrar actividades
   const [actividad, setActividad] = useState([])
-  const url = 'http://localhost:8080/'
+  const url =  'http://localhost:8080/'
 
 
   //Función obtener actividades.

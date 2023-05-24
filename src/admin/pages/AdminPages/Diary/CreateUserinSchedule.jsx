@@ -5,7 +5,7 @@ export const CreateUserinSchedule = () => {
   const [usuarioPutInput, setUsuarioPutInput] = useState('');
 
 
-  const url = 'http://localhost:8080/'
+  const url =  'http://localhost:8080/'
 
   //Función actualizar usuario
   async function onSubmitUpdateUseronSchedule(event) {

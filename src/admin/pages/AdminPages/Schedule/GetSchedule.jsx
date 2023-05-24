@@ -4,7 +4,7 @@ import '../../../../ui/css/admin.css'
 export const GetSchedule = () => {
   //Mostrar horarios
   const [schedule, setSchedule] = useState([])
-  const url = 'http://localhost:8080/'
+  const url =  'http://localhost:8080/'
 
 
   //Función obtener horarios.

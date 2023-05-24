@@ -9,7 +9,7 @@ export const  CreateUser= () => {
   const [correoInput, setCorreoInput] = useState('');
   const [passwordInput, setPasswordInput] = useState('');
   const [actividadInput, setActividadInput] = useState([]);
-  const url = 'http://localhost:8080/'
+  const url =  'http://localhost:8080/'
 
   //Función crearUsuario
   async function onSubmitCreateUser(event) {
