@@ -8,11 +8,13 @@ export const Footer = () => {
             <div className="contactoinicio">
                 <div >
                     <h2>Club de taekwondo Hebe Moaña</h2>
-                    <br/>
-                    <h3>Rúa de Miguel Enríquez, 36, 36950 Moaña, Pontevedra</h3>
+                    <br />
+                    <h3 >Rúa de Miguel Enríquez, 36, 36950 Moaña, Pontevedra</h3>
                     <h3>662 07 76 28</h3>
-                    <div className="flex flex-row">
-                        
+                    <div className="RRSS">
+                        <img className="whatsappIcon " src="resources\iconos\whatsappIcon.png" alt="iconowhatsapp" />
+                        <img className="instagramIcon " src="resources\iconos\instagramIcon.png" alt="iconoinstagram" />
+                        <img className="facebookIcon " src="resources\iconos\facebookIcon.png" alt="iconofacebook" />
                     </div>
 
                 </div>
