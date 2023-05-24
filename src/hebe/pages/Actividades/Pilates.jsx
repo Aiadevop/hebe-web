@@ -15,12 +15,12 @@ export const Pilates = () => {
           
           </p>
         </div>
-        <img className='taekwondoImg pilates' src='V'></img>
+        <img className='taekwondoImg pilates' src='resources\img\pilatesweb.png'></img>
       </div>
 
       <div className='taekwondoContainerMovil'>
       <h1 className='taeh1 movil'>Pilates Hebe Moaña</h1>
-        <img className='taekwondoImgx' src='\resources\img\pilatesweb.png'></img>
+        <img className='taekwondoImgx' src='resources\img\pilatesweb.png'></img>
         <div className='taekwondo'>
           <p>
           <strong>¡Descubre los beneficios del Pilates en Hebe!</strong> En nuestra escuela de Pilates en Moaña, <strong>mejorarás tu fuerza, equilibrio y flexibilidad, y reducirás el estrés</strong> mientras aprendes la técnica correcta. Nuestros instructores altamente cualificados se enfocan en <strong>desarrollar tu control corporal, postura y respiración</strong> mientras te ayudan a alcanzar tus objetivos de acondicionamiento físico. A través de nuestras clases personalizadas y adaptadas a todos los niveles, tanto los principiantes como los avanzados pueden disfrutar de los beneficios del Pilates en un <strong>ambiente relajado y acogedor.</strong> ¡Únete a nosotros ahora y comienza a mejorar tu vida!
