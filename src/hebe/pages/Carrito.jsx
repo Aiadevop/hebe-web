@@ -5,13 +5,14 @@ export const Carrito = () => {
   const [numeroInput, setnumeroInput] = useState("");
 
   const [result, setResult] = useState();
+  const url = 'http://localhost:8080/'
 
   async function onSubmit(event) {
 
     event.preventDefault();
     try {
 
-      const response = await fetch(`http://localhost:8080/api/usuarios?limite=10`, {
+      const response = await fetch(`${url}api/usuarios?limite=10`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

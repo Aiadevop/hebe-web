@@ -4,7 +4,7 @@ export const CreateActivity = () => {
 
   const [actividadInput, setActividadInput] = useState('');
   const [precioInput, setPrecioInput] = useState(0);
-  const url = 'http://localhost:8080/'
+  const url =  'http://localhost:8080/'
 
   //Función crearUsuario
   async function onSubmitCreateActivity(event) {

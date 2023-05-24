@@ -4,7 +4,7 @@ export const SearchUser = () => {
   //Mostrar usuarios
   const [userInput, setUserInput] = useState([])
   const [result, setResult] = useState({})
-  const url = 'http://localhost:8080/'
+  const url =  'http://localhost:8080/'
 
 
   //Función obtener usuarios.

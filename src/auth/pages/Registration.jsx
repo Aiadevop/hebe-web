@@ -10,8 +10,7 @@ export const Registration = () => {
   const [correoInput, setCorreoInput] = useState('');
   const [passwordInput, setPasswordInput] = useState('');
   const [actividadInput, setActividadInput] = useState([]);
-  const url = 'http://localhost:8080/'
-
+  const url =  'http://localhost:8080/'
   async function onSubmitRegistration(event) {
     event.preventDefault();
     try {

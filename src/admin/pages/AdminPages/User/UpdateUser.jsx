@@ -10,8 +10,7 @@ export const UpdateUser = () => {
   const [correoPutInput, setCorreoPutInput] = useState('');
   const [passwordPutInput, setPasswordPutInput] = useState('');
   const [menuOpened, setMenuOpened] = useState(false);
-  const url = 'http://localhost:8080/'
-
+  const url =  'http://localhost:8080/'
   //Función actualizar usuario
   async function onSubmitUpdateUser(event) {
 

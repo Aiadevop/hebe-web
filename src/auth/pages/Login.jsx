@@ -1,13 +1,15 @@
 import { useState } from 'react';
-import { NavLink, Navigate } from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
+
 
 
 export const Login = () => {
 
   const [correoInput, setCorreoInput] = useState('');
   const [passwordInput, setPasswordInput] = useState('');
-  const url = 'http://localhost:8080/'
-  const urlFront = 'http://localhost:5173'
+  
+  const url =  'http://localhost:8080/'
+  
 
 
   async function onSubmitLogin(event) {
@@ -47,7 +49,7 @@ export const Login = () => {
           sessionStorage.setItem('user', JSON.stringify(data.usuario))
           sessionStorage.setItem('nombre', JSON.stringify(data.nombre))
           sessionStorage.setItem('rol', JSON.stringify(data.rol))   
-          window.location.href = `${urlFront}/auth/adminpanel`
+          window.location.href = `/auth/adminpanel`
         } else {
           sessionStorage.setItem('token', JSON.stringify(data.token))
           sessionStorage.setItem('user', JSON.stringify(data.usuario))
@@ -59,7 +61,7 @@ export const Login = () => {
           sessionStorage.setItem('totalPrecio', JSON.stringify(data.totalPrecio))
           sessionStorage.setItem('rol', JSON.stringify(data.rol))
 
-          window.location.href = `${urlFront}/auth/userpanel`
+          window.location.href = `/auth/userpanel`
           // alert("Tenemos token")
         }
       }

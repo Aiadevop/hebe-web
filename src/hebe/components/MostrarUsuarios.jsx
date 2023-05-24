@@ -2,6 +2,7 @@
 import { useState } from 'react';
 
 export const MostrarUsuarios = () => {
+  const url=  'http://localhost:8080/'
   
     const [users, setUsers] = useState([]) 
 
@@ -10,7 +11,7 @@ export const MostrarUsuarios = () => {
       event.preventDefault();
       try {
   
-        const response = await fetch(`http://localhost:8080/api/usuarios?limite=100`, {
+        const response = await fetch(`${url}api/usuarios?limite=100`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

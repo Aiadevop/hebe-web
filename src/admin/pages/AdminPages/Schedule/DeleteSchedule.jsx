@@ -3,8 +3,7 @@ import { useState } from 'react';
 export const DeleteSchedule = () => {
   const [nameInput, setNameInput] = useState('');
   const [idInput, setIdInput] = useState('');
-  const url = 'http://localhost:8080/'
-
+  const url =  'http://localhost:8080/'
   //Función borrar horario
   async function onSubmitDeleteSchedule(event) {
 
