@@ -9,7 +9,7 @@ export const Registration = () => {
   const [telefonoInput, setTelefonoInput] = useState('');
   const [correoInput, setCorreoInput] = useState('');
   const [passwordInput, setPasswordInput] = useState('');
-  const [actividadInput, setActividadInput] = useState([]);
+
   const url =  'http://localhost:8080/'
   async function onSubmitRegistration(event) {
     event.preventDefault();
@@ -23,7 +23,7 @@ export const Registration = () => {
         rol: "USER_ROLE"
       }
 
-      const response = await fetch(`${url}api/usuarios`, {
+      const response = await fetch(`${url}api/usuarios/auth/`, {
         method: "POST",
         body: JSON.stringify(_datos),
         headers: {

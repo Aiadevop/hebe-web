@@ -31,7 +31,6 @@ export function Slide() {
         infiniteLoop={true}    
         passive={true} >
         {images.map((URL, index) => (
-
           <div className="slide" key={index}>
             {URL}
           </div>
@@ -49,9 +48,9 @@ export function Slide() {
         transitionTime={1000}
         infiniteLoop={true}    
         passive={true} >
-        {imagesmovil.map((URL, index) => (
+        {imagesmovil.map((URL, index2) => (
 
-          <div className="slide" key={index}>
+          <div className="slide" key={index2}>
             {URL}
             {/* <iframe width="100%" height="700"  src={URL} key={index}/> */}
           </div>
