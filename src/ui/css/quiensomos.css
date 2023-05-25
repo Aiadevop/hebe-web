@@ -1,18 +1,27 @@
 #quiensomos {
     margin-top: 0%;;
-    background-color: #d9d9d9;
+
 }
 
 .quiencontainer {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: #d9d9d9;
     box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
       -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
     border-radius: 30px;
     padding: 2%;
     padding-left: 5%;
+
     padding-right: 5%;
+}
+
+.quiendivided{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .h2div{ 
@@ -29,6 +38,7 @@
 
 .pquien{
     font-size: large; 
+    margin-right: 15%;
 }
 
 .buttondiv {
@@ -77,6 +87,7 @@
 
     .pquien{
         font-size: medium; 
+            margin-right: 0%;
     }
 
     .pdiv {     

@@ -15,9 +15,9 @@ export const AdminPanel = () => {
       return (
         <>
           <div className='adminPanel'>
-            <h2>Búsquedas</h2>
+            {/* <h2>Búsquedas</h2>
             <ul className="adminPanelul">
-              {/* <li className='adminLi'>
+              <li className='adminLi'>
             <NavLink className="boton" to="/auth/SearchUser">
               <button className='botonAdmin'>Buscar usuario</button>
             </NavLink>
@@ -26,13 +26,13 @@ export const AdminPanel = () => {
             <NavLink className="boton" to="/auth/SearchActivity">
               <button className='botonAdmin'>Buscar actividad</button>
             </NavLink>
-          </li> */}
+          </li>
               <li className='adminLi'>
                 <NavLink className="boton" to="/auth/SearchSchedule">
                   <button className='botonAdmin'>Busquedas</button>
                 </NavLink>
               </li>
-            </ul>
+            </ul> */}
 
             <h2>Usuarios</h2>
             <ul className="adminPanelul">
