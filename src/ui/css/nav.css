@@ -231,6 +231,10 @@ body {
     left: 0%;
   }
 
+  .nav-menu_visible .hidden {
+    display: none;
+  }
+
   .grupo2{
     display: block;
   }
